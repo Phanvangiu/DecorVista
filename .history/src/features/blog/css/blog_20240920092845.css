@@ -1,0 +1,6 @@
+/* CSS for centering images and setting width to 70% */
+.blog-content img {
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  width: 70%; /* Set the width to 70% */
+}

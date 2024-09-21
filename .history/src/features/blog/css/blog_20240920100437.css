@@ -1,0 +1,69 @@
+.blog-content h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: bold;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-content h2:hover {
+  color: #3498db;
+}
+
+.blog-content div {
+  color: #333;
+  line-height: 1.6;
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+.blog-content h2 {
+  font-size: 28px; /* Larger font size for headings */
+  margin-bottom: 15px; /* Add spacing below the heading */
+  color: #2c3e50; /* Slightly darker for emphasis */
+}
+
+/* Paragraphs */
+.blog-content p {
+  margin-bottom: 20px; /* Space out paragraphs for easier reading */
+}
+
+/* Images */
+.blog-content img {
+  display: block;
+  margin: 20px auto; /* Center the image and add spacing */
+  width: 70%; /* Set the image width to 70% of the content area */
+}
+
+/* Links */
+.blog-content a {
+  color: #3498db; /* Blue color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.blog-content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Lists */
+.blog-content ul,
+.blog-content ol {
+  margin: 20px 0;
+  padding-left: 40px; /* Indent lists */
+}
+
+.blog-content li {
+  margin-bottom: 10px;
+}
+
+/* Blockquotes */
+.blog-content blockquote {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+}

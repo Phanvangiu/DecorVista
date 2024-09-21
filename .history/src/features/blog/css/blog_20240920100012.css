@@ -1,0 +1,78 @@
+/* Blogs.css */
+/* blog.css */
+
+/* Styling for the blog titles (h2) */
+.blog-content h2 {
+  font-size: 28px; /* Adjust the font size */
+  color: #2c3e50; /* Set a dark color for the title */
+  font-weight: bold; /* Make the title bold */
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Add some space below the title */
+  padding-left: 20px; /* Add padding on the left to move title away from left edge */
+  text-align: left; /* Ensure the title remains left-aligned */
+}
+
+/* Optional: Add hover effect for the title */
+.blog-content h2:hover {
+  color: #3498db; /* Change color on hover */
+}
+
+/* Styles for the blog container */
+.blog-content {
+  font-family: "Arial", sans-serif;
+  color: #333; /* Darker color for readability */
+  line-height: 1.6; /* Increase line height for easier reading */
+  font-size: 18px; /* Base font size */
+  max-width: 800px; /* Limit the content width for better readability */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Add some padding */
+}
+
+/* Headings */
+.blog-content h2 {
+  font-size: 28px; /* Larger font size for headings */
+  margin-bottom: 15px; /* Add spacing below the heading */
+  color: #2c3e50; /* Slightly darker for emphasis */
+}
+
+/* Paragraphs */
+.blog-content p {
+  margin-bottom: 20px; /* Space out paragraphs for easier reading */
+}
+
+/* Images */
+.blog-content img {
+  display: block;
+  margin: 20px auto; /* Center the image and add spacing */
+  width: 70%; /* Set the image width to 70% of the content area */
+}
+
+/* Links */
+.blog-content a {
+  color: #3498db; /* Blue color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.blog-content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Lists */
+.blog-content ul,
+.blog-content ol {
+  margin: 20px 0;
+  padding-left: 40px; /* Indent lists */
+}
+
+.blog-content li {
+  margin-bottom: 10px;
+}
+
+/* Blockquotes */
+.blog-content blockquote {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+}
